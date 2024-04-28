@@ -9,3 +9,9 @@
 9. Error because `i` is not defined as its scope is the `for` loop.
 10. 3 will be printed as `length` of the list is 3.
 11. It will return `[50, 100, 150]` which is the list containing discounted prices because declaring `discounted` of type `const` means we cannot reassign its memory address but we can still add or remove elements.
+12. * (A) student.name
+    * (B) student['Grad Year']
+    * (C) student.greeting()
+    * (D) student['Favorite Teacher'].name
+    * (E) student.courseLoad[0]
+13.  
