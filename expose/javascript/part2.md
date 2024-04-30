@@ -29,4 +29,4 @@
     * (E) false because it converts true to 1 and then sees if it's equal to 2.
     * (F) true because it checks if true is equal to Boolean(2) which after          conversion results into true since it is non-zero.
 15. `==` performs comparison by doing some automatic type conversions                beforehand. On the other hand `===` performs comparison without perform        any automatic type conversions.
-
+17. `[2, 4, 6]` because modifyArray takes two arguments an array and a callback function. Since the array is `[1, 2, 3]` and callback function is `doSomething` which takes a number as an argument and multiplies it with 2, we iterate through the passed in array and call `doSomething` on each element of this array and a create a new array using the returned values.
