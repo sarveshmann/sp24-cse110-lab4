@@ -1,8 +1,7 @@
-#### 1. The bug is in the funtion printSum which takes the input as a string instead of a number.
+#### 1. The bug is that when we call the function `calculateSum` on line 7 in `explore.js`, we pass in `num1` and `num2` as type `String`.
 
-#### 2. To fix the problem, add `valueAsNumber` at on line 5 and 6.
+#### 2. To fix the problem, convert `num1` and `num2` to type `Number` using Type conversion:
 
 ```
-let num1 = document.getElementById("num1").valueAsNumber;
-let num2 = document.getElementById("num2").valueAsNumber;
+document.getElementById("sum").innerHTML = "Sum: " + calculateSum(Number(num1), Number(num2));
 ```
